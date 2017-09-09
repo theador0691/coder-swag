@@ -13,6 +13,8 @@
 		442AB7231F6439B2001D7279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442AB7221F6439B2001D7279 /* Assets.xcassets */; };
 		442AB7261F6439B2001D7279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442AB7241F6439B2001D7279 /* LaunchScreen.storyboard */; };
 		442AB7311F643DF9001D7279 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442AB7301F643DF9001D7279 /* CategoryCell.swift */; };
+		442AB7331F643FEA001D7279 /* Cateogry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442AB7321F643FEA001D7279 /* Cateogry.swift */; };
+		442AB7361F644169001D7279 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442AB7351F644169001D7279 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		442AB7251F6439B2001D7279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		442AB7271F6439B2001D7279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		442AB7301F643DF9001D7279 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		442AB7321F643FEA001D7279 /* Cateogry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cateogry.swift; sourceTree = "<group>"; };
+		442AB7351F644169001D7279 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		442AB71A1F6439B2001D7279 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				442AB7341F64415C001D7279 /* Services */,
 				442AB72F1F643D8D001D7279 /* Views */,
 				442AB72E1F643D89001D7279 /* Model */,
 				442AB72D1F643D83001D7279 /* Controller */,
@@ -79,6 +84,7 @@
 		442AB72E1F643D89001D7279 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				442AB7321F643FEA001D7279 /* Cateogry.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				442AB7301F643DF9001D7279 /* CategoryCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		442AB7341F64415C001D7279 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				442AB7351F644169001D7279 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				442AB71E1F6439B2001D7279 /* CategoryVC.swift in Sources */,
 				442AB71C1F6439B2001D7279 /* AppDelegate.swift in Sources */,
 				442AB7311F643DF9001D7279 /* CategoryCell.swift in Sources */,
+				442AB7331F643FEA001D7279 /* Cateogry.swift in Sources */,
+				442AB7361F644169001D7279 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
